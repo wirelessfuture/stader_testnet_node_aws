@@ -2,12 +2,6 @@
 ######     Variables      ######
 ################################
 
-variable "resource_name" {
-  type        = string
-  description = "The name of the instance resource in AWS"
-  default     = "stader-testnet-node-lightsail"
-}
-
 variable "resource_count" {
   type        = number
   description = "The amount of resources to deploy"
